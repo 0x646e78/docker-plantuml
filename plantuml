@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-#docker_tag=ectoplasm/plantuml:latest
-docker_tag=plantuml:latest
-
-#mkdir -p out/
+docker_tag=ectoplasm/plantuml:latest
 
 if [[ $# -ne 1 ]]; then
   echo "No src diagram specified. Quitting."
@@ -12,4 +9,4 @@ else
   srcfile=$1
 fi
 
-docker run --rm -it -v $(pwd):/opt/plantuml/src/ $docker_tag $srcfile
+docker run --rm -v $(pwd):/opt/plantuml/src/ $docker_tag $srcfile

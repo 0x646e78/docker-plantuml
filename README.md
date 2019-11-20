@@ -16,7 +16,7 @@ Then use the script in this repo:
 
     ./plantuml example.puml
 
-An svg
+If successful an svg of the rendered image will be in `./out/'
 
 ## Limitations
 
