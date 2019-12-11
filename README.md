@@ -16,11 +16,11 @@ Then use the script in this repo:
 
     ./plantuml example.puml
 
-If successful an svg of the rendered image will be in `./out/'
+If successful both svg & png images will be in `./out/'
 
 ## Limitations
 
-I have only enabled svg, and single file processing. Should be quick and easy to extend.
+I have only enabled svg and png (and you always get both), and single file processing.
 
 No GUI support.
 

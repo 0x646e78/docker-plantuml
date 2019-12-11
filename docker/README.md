@@ -9,4 +9,4 @@ Then run with
 
     plantuml <diagram.puml>
 
-SVG output will be saved into `out/`
+SVG and PNG output will be saved into `out/`
