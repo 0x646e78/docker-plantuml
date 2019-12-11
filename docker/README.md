@@ -1,11 +1,13 @@
 plantuml as a container
 ===
 
-## Running
+## Install
 
 The easiest way would be to grab the [script](https://raw.githubusercontent.com/0x646e78/docker-plantuml/master/plantuml) and add it to `/usr/local/bin` or elsewhere in your PATH.
 
-Then run with 
+## Running
+
+You can then run with 
 
     plantuml <diagram.puml>
 
