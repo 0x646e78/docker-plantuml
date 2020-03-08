@@ -16,7 +16,7 @@ Then use the script in this repo:
 
     ./plantuml example.puml
 
-If successful both svg & png images will be in `./out/'
+If successful both svg & png images will be in `./out/`
 
 ## Limitations
 
