@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-tag=plantuml
+name=plantuml
+tag=$(cat VERSION)
 
-docker build -t $tag .
+docker build -t ${name}:${tag} -t ${name}:latest .

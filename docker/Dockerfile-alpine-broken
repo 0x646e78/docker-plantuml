@@ -1,0 +1,12 @@
+FROM openjdk:8-alpine
+
+RUN apk add --update-cache \
+    graphviz && \
+    rm -rf /var/cache/apk/*
+
+WORKDIR /opt/plantuml
+
+COPY bin/plantuml.jar ./
+COPY bin/plantuml.sh ./
+
+ENTRYPOINT ["./plantuml.sh"]
