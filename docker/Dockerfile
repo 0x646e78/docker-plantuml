@@ -1,8 +1,8 @@
-FROM openjdk:8
+FROM openjdk:8-alpine
 
-RUN apt-get update && \
-    apt-get -y install graphviz && \
-    rm -rf /var/lib/apt/lists/*
+RUN apk add --update-cache \
+    graphviz ttf-droid ttf-droid-nonlatin && \
+    rm -rf /var/cache/apk/*
 
 WORKDIR /opt/plantuml
 
